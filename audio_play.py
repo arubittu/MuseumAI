@@ -7,7 +7,7 @@ from openai import OpenAI
 from RealtimeTTS import OpenAIEngine, TextToAudioStream
 from utils import *
 # API KEYS -------
-os.environ['OPENAI_API_KEY']="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"
+os.environ['OPENAI_API_KEY']=""
 # -----------------
 
 class AudioTour:
