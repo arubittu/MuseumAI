@@ -77,12 +77,12 @@ def conversation(n,system_prompt,transcript_prompt,history):
 if __name__=="__main__":
     listener = keyboard.Listener(on_press=on_press)
     listener.start()
-    os.environ['OPENAI_API_KEY']="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"
+    os.environ['OPENAI_API_KEY']="key"
     client = OpenAI(
         # This is the default and can be omitted
-        api_key="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",
+        api_key="key",
     )
-    #elevenlabs.set_api_key("ed0b37bd0196e46583e6d87094b2794e")
+    #elevenlabs.set_api_key("key")
     device = "cpu"
     batch_size = 4  # reduce if low on GPU mem
     compute_type = "int8"
